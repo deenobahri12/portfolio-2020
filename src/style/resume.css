@@ -1,0 +1,149 @@
+.resume-right-col{
+    background: #27221f;
+    height: 100%;
+    width: 60%;;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+.resume-right-col h2{
+    color: white;
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#skillCard{
+    background-color: gainsboro;
+    width:  12em;
+    height: 23.5rem;
+    margin: auto; 
+    margin-left: 3rem;
+    margin-top: 1rem;
+    float: left;
+    opacity: .6;
+    margin-bottom: 2rem;;
+
+    /* Hover animation */
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+#skillCard:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+.lineBreak{
+    border-top: .3rem solid gainsboro;
+    opacity: .6;
+}
+
+.fe-icon{
+    height: 6rem;
+    display: block;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+.cardTitle{
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.cardLine{
+    border-top: .3rem solid black;
+    opacity: .6;
+}
+
+#skillCard li{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: .6rem;
+    font-weight: bolder;
+}
+
+.resume-left-col{
+    text-align: center;
+    height: 100%;
+    background-color: gainsboro;
+    opacity: .6;
+    display: block;
+
+}
+
+.resume-left-col h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.resume-left-col hr{
+    border-top: .3rem solid black;
+    opacity: .6;
+    
+}
+
+.resume-left-col h4{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.experience h4{
+
+    color: white;
+    margin-top:.2rem;
+    font-family: 'Times New Roman, Times, serif';
+    display: block;
+    font-weight: bolder;
+}
+
+.experience h5{
+    color: white;
+    padding-left: 1%;
+    margin-top:.2rem;
+    font-family: 'Times New Roman, Times, serif';
+    display: block;
+    font-weight: bolder;
+
+}
+
+.experience p{
+    color: white;
+    padding-left: 16%;
+    font-family: 'Times New Roman, Times, serif';
+    font-size: 1.5rem;
+    padding-left: 1%;
+}
